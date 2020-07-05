@@ -2,9 +2,19 @@ import json
 import time
 from shutil import get_terminal_size
 
+ajuda = 3
+
 def perguntar(pergunta):
-    print("\n" + pergunta)
+    print("\n" + pergunta["question"])
+    global ajuda
+    if ajuda > 0:
+        au = input("Deseja pedir ajuda aos universitários? [s/n] \n")
+        if au == 's':
+            ajuda = ajuda - 1
+            print(pergunta["ajuda"] + "\n")
+
     opt = input("Qual a opção correta? [a/b/c/d]: ")
+
     while(True):
         if opt.lower() in ['a', 'b', 'c', 'd']:
             return opt
@@ -28,23 +38,21 @@ def verifica(opt, meta):
         return 0
 
 def inicio():
+    ajuda = 3
     premio = ["mil", "dois mil", "tres mil", "quatro mil", "cinco mil" , "dez mil", "vinte mil", "trinta mil", "quarenta mil", "cinquenta mil", "cem mil", "duzentos mil", "trezentos mil", "quatrocentos mil", "quinhentos mil", "um milhão"]
     perguntas = carregarPerguntas('lib/worldgk.json')
     i = 0
 
     for key, meta in perguntas.items():
         print("A pergunta número " + key + " valendo " + premio[i] + " reais")
-        resposta = perguntar(meta["question"])
-
+        resposta = perguntar(meta)
 
         if (not verifica(resposta, meta)):
-            opt = input("Deseja reiniciar o jogo?\n(Digite 's' ou 'y' para confirmar)\n")
+            opt = input("Deseja reiniciar o jogo? \n [pressione s ou y para confirmar, ou pressione qualquer tecla para sair]\n")
             if(opt == 'y' or opt == 's'):
                 execute()
             else:
                 exit
-
-
         i = i + 1
 
 

@@ -1,56 +1,56 @@
 {
   "1": {
-    "question": "Which one is the largest ocean in the World?\n(a) Indian\n(b) Pacific\n(c) Atlantic\n(d) Arctic\n",
+    "question": "Qual é o maior oceano no mundo?\n(a) Índico\n(b) Pacífico\n(c) Atlantico\n(d) Árctico\n",
     "answer": "b",
     "more_info": "https://en.wikipedia.org/wiki/World_Ocean",
-    "user_response": "None"
+    "ajuda": "Recebeu seu nome por Fernão de Magalhães, enquanto fazia a travessia pelo estreito de Magalhães, no Chile "
   },
   "2": {
-    "question": "Dead Sea is located between which two countries?\n(a)Jordan and Sudan\n(b)Jordan and Israel\n(c)Turkey and UAE\n(d)UAE and Egypt\n",
+    "question": "O mar morto se localiza entre quais países?\n(a)Jordânia e Sudão\n(b)Jordânia e Israel\n(c)Turquia e Emirados Árabes Unidos\n(d)Emirados Árabes Unidos e Egito\n",
     "answer": "b",
     "more_info": "https://en.wikipedia.org/wiki/Dead_Sea",
-    "user_response": "None"
+    "ajuda": "Os peixes que chegam nele pelo rio Jordão são imediatamente mortos pela taxa de sal dez vezes maior que o normal"
   },
   "3": {
-    "question": "Which country gifted the 'Statue of Liberty' to USA in 1886?\n(a)French\n(b)Canada\n(c)Brazil\n(d)England\n",
+    "question": "Que país presenteou a estátua da liberdade aos EUA em 1886?\n(a)França\n(b)Canadá\n(c)Brasil\n(d)Inglaterra\n",
     "answer": "a",
     "more_info": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
-    "user_response": "None"
+    "ajuda": "Foi construída por Gustave Eiffel e representa Libertas, uma deusa romana"
   },
   "4": {
-    "question": "In which ocean 'Bermuda Triangle' region is located?\n(a)Atlantic\n(b)Indian\n(c)Pacific\n(d)Arctic\n",
+    "question": "Em que oceano está localizada a região do Triângulo das Bermudas?\n(a)Atlântico\n(b)Índico\n(c)Pacífico\n(d)Árctico\n",
     "answer": "a",
     "more_info": "https://en.wikipedia.org/wiki/Bermuda_Triangle",
-    "user_response": "None"
+    "ajuda": "Mais de 20 navios e 50 aviões se perderam na zona durante o século XX, relata a guarda costeira americana"
   },
   "5": {
-    "question": "Which one is the largest producer of tea in the World?\n(a)China\n(b)Sri Lanka\n(c)India\n(d)Kenya\n",
+    "question": "Que país é o maior produtor de chá no mundo?\n(a)China\n(b)Sri Lanka\n(c)India\n(d)Quênia\n",
     "answer": "a",
     "more_info": "https://en.wikipedia.org/wiki/Tea",
-    "user_response": "None"
+    "ajuda": "O hábito de beber chá se originou na China em 2737 a.C"
   },
   "6": {
-    "question": "Earth day is celebrated on?\n(a)September 17\n(b)February 16\n(c)April 4\n(d)April 22\n",
+    "question": "Em que data é celebrado o dia do Planeta Terra?\n(a)17 de Setembro\n(b)16 de Fevereiro\n(c)4 de Abril\n(d)22 de Abril\n",
     "answer": "d",
     "more_info": "https://www.earthday.org/about/the-history-of-earth-day/",
-    "user_response": "None"
+    "ajuda": "É celebrado próximo ao feriado de tiradentes"
   },
   "7": {
-    "question": "Where the headquaters of World Wide Fund for Nature (WWF) located?\n(a)Canada\n(b)Switzerland\n(c)Germany\n(d)USA\n",
+    "question": "Onde fica a sede da World Wide Fund for Nature (WWF)?\n(a)Canadá\n(b)Suiça\n(c)Alemanha\n(d)EUA\n",
     "answer": "b",
     "more_info": "https://en.wikipedia.org/wiki/World_Wide_Fund_for_Nature",
-    "user_response": "None"
+    "ajuda": "Um dos seus fundadores é o Príncipe Philip, duque de Edimburgo"
   },
   "8": {
-    "question": "Which country is the largest producer of cotton?\n(a)India\n(b)Pakistan\n(c)Brazil\n(d)China\n",
+    "question": "Que país é o maior produtor de algodão?\n(a)Índia\n(b)Paquistão\n(c)Brasil\n(d)China\n",
     "answer": "d",
     "more_info": "https://www.worldatlas.com/articles/top-cotton-producing-countries-in-the-world.html",
-    "user_response": "None"
+    "ajuda": "Estima-se que quase 300 milhões de pessoas neste país estejam envolvidos no plantio de algodão"
   },
   "9":{
-    "question": "With which of the following books did Arthur Conan Doyle make his literary debut?\n(a)A Study in Scarlet \n(b)The Surgeon of Gaster Fell \n(c)The Lost World\n(d)The Adventures of Sherlock Holmes\n",
+    "question": "Qual foi o primeiro livro lançado por Arthur Conan Doyle?\n(a)Um estudo em vermelho \n(b)O Cirurgião de Gaster Fell \n(c)O Mundo Perdido\n(d)As aventuras de Sherlock Holmes\n",
     "answer": "b",
     "more_info": "https://www.orderofbooks.com/authors/sir-arthur-conan-doyle/",
-    "user_response": "None"
+    "ajuda": "Foi publicado em 4 partes, entre 6 e 27 de dezembro de 1890 "
   }
 }
