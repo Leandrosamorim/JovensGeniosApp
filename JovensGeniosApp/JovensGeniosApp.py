@@ -3,15 +3,37 @@ import time
 from shutil import get_terminal_size
 
 ajuda = 3
+skip = 3
+pts = 0
+skiped = False
 
 def perguntar(pergunta):
     print("\n" + pergunta["question"])
     global ajuda
-    if ajuda > 0:
-        au = input("Deseja pedir ajuda aos universitários? [s/n] \n")
-        if au == 's':
-            ajuda = ajuda - 1
-            print(pergunta["ajuda"] + "\n")
+    global skip
+    global skiped
+
+    if ajuda > 0 or skip > 0:
+        print("Você pode: \n")
+        if ajuda > 0:
+            print("-Pedir ajuda aos universitários " + str(ajuda) + " vezes \n")
+        if skip > 0:
+            print("-Pular " + str(skip) + " vezes \n" )
+        au = input("Pressione U para ajuda dos universitários ou P para pular. Para negar, pressione N \n")
+        if (au == 'U' or au == 'u'):
+            if(ajuda>0):
+                ajuda = ajuda - 1
+                print(pergunta["ajuda"] + "\n")
+            else:
+                print("Não pode mais pedir ajuda! \n")
+        if au == 'P' or au == 'p':
+            if skip > 0:
+                skip = skip -1
+                print("Próxima pergunta...")
+                skiped = True
+                return("p")
+            else:
+                print("Não pode mais pular! \n")
 
     opt = input("Qual a opção correta? [a/b/c/d]: ")
 
@@ -30,29 +52,41 @@ def carregarPerguntas(file):
 
 def verifica(opt, meta):
     correta = meta["answer"]
+    global pts
     if correta.lower == opt.lower:
         print("Parabéns, você acertou!")
+        pts = pts + 1
+        return 1
+    elif opt.lower == 'p':
         return 1
     else:
         print("Sinto muito, você errou!")
         return 0
 
 def inicio():
-    ajuda = 3
+    global pts
+    global skiped
     premio = ["mil", "dois mil", "tres mil", "quatro mil", "cinco mil" , "dez mil", "vinte mil", "trinta mil", "quarenta mil", "cinquenta mil", "cem mil", "duzentos mil", "trezentos mil", "quatrocentos mil", "quinhentos mil", "um milhão"]
     perguntas = carregarPerguntas('lib/worldgk.json')
     i = 0
 
     for key, meta in perguntas.items():
-        print("A pergunta número " + key + " valendo " + premio[i] + " reais")
+        print("A pergunta número " + key + " valendo " + premio[pts] + " reais")
         resposta = perguntar(meta)
+
+        if skiped == True:
+            skiped = False
+            continue
 
         if (not verifica(resposta, meta)):
             opt = input("Deseja reiniciar o jogo? \n [pressione s ou y para confirmar, ou pressione qualquer tecla para sair]\n")
             if(opt == 'y' or opt == 's'):
                 execute()
             else:
-                exit
+                quit()
+        if pts > 16:
+            print("Parabéns, você acaba de ganhar um milhão de reais!")
+
         i = i + 1
 
 

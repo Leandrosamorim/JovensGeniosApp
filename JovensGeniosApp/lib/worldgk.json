@@ -47,10 +47,28 @@
     "more_info": "https://www.worldatlas.com/articles/top-cotton-producing-countries-in-the-world.html",
     "ajuda": "Estima-se que quase 300 milhões de pessoas neste país estejam envolvidos no plantio de algodão"
   },
-  "9":{
+  "9": {
     "question": "Qual foi o primeiro livro lançado por Arthur Conan Doyle?\n(a)Um estudo em vermelho \n(b)O Cirurgião de Gaster Fell \n(c)O Mundo Perdido\n(d)As aventuras de Sherlock Holmes\n",
     "answer": "b",
     "more_info": "https://www.orderofbooks.com/authors/sir-arthur-conan-doyle/",
     "ajuda": "Foi publicado em 4 partes, entre 6 e 27 de dezembro de 1890 "
+  },
+  "10": {
+    "question": "Em que cidade foram realizados os jogos Olímpicos de 2000? \n(a)Sidney\n(b)Munique\n(c)Atlanta\n(d)Tóquio\n",
+    "answer": "a",
+    "more_info": "https://en.wikipedia.org/wiki/2000_Summer_Olympics",
+    "ajuda": "Foi escolhida dentre Pequim, Berlin e Manchester "
+  },
+  "11": {
+    "question": "Teresina é a capital de que Estado brasileiro? \n(a)Tocantins\n(b)Acre\n(c)Paraná\n(d)Piauí\n",
+    "answer": "d",
+    "more_info": "https://en.wikipedia.org/wiki/Teresina",
+    "ajuda": "A cidade de Teresina se localiza na confluência dos rios Parnaíba e Poti "
+  },
+  "12": {
+    "question": "Qual é a altura oficial do aro na cesta de Basquete? \n(a)3,05m\n(b)2,97m\n(c)3,10m\n(d)3m\n",
+    "answer": "a",
+    "more_info": "https://en.wikipedia.org/wiki/Basketball",
+    "ajuda": "A média de altura dos jogadores da NBA é de 1,96m e podem pular a mais de 60cm de altura"
   }
 }
