@@ -70,5 +70,47 @@
     "answer": "a",
     "more_info": "https://en.wikipedia.org/wiki/Basketball",
     "ajuda": "A média de altura dos jogadores da NBA é de 1,96m e podem pular a mais de 60cm de altura"
+  },
+  "13": {
+    "question": "Quem venceu a World Surf League no ano de 2019? \n(a)Gabriel Medina\n(b)Filipe Toledo\n(c)Ítalo Ferreira\n(d)Kelly Slater\n",
+    "answer": "c",
+    "more_info": "https://en.wikipedia.org/wiki/2019_World_Surf_League",
+    "ajuda": "Nascido no Rio Grande do Norte, ganhou o prêmio de novato do ano em 2015"
+  },
+  "14": {
+    "question": "Miró, Picasso e Dalí eram pintores de que país? \n(a)França\n(b)Argentina\n(c)Espanha\n(d)Portugal\n",
+    "answer": "c",
+    "more_info": "https://en.wikipedia.org/wiki/List_of_Spanish_painters",
+    "ajuda": "Francisco Goya e Diego Velazquez nasceram no mesmo país"
+  },
+  "15": {
+    "question": "Em que ano foi lançado o primeiro álbum dos Beatles 'Please, Please, Please'? \n(a)1963\n(b)1967\n(c)1970\n(d)1960\n",
+    "answer": "a",
+    "more_info": "https://en.wikipedia.org/wiki/Please_Please_Me",
+    "ajuda": "Ray Charles lançou seu álbum 'Ingredients in a recipe for Soul' no mesmo ano"
+  },
+  "16": {
+    "question": "Que presidente brasileiro foi deposto no golpe militar de 64? \n(a)Jânio Quadros\n(b)Ranieri Mazzilli\n(c)João Goulart\n(d)Juscelino Kubitschek\n",
+    "answer": "c",
+    "more_info": "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Goulart",
+    "ajuda": "Foi o vice-presidente entre 1956 e 1961"
+  },
+  "17": {
+    "question": "Quem ganhou o Oscar de melhor ator em 2014? \n(a)Matthew McConaughey\n(b)Christian Bale\n(c)Leonardo DiCaprio\n(d)Jared Leto\n",
+    "answer": "a",
+    "more_info": "https://en.wikipedia.org/wiki/Matthew_McConaughey",
+    "ajuda": "Estrelou o filme 'Dallas Buyers Club'"
+  },
+  "18": {
+    "question": "Qual o sistema de transporte mais utilizado no Brasil? \n(a)Ferroviário\n(b)Aéreo\n(c)Hidroviário\n(d)Rodoviário\n",
+    "answer": "d",
+    "more_info": "https://www.linkedin.com/pulse/os-5-principais-modais-de-transporte-carga-brasil-rodrigo-lizot",
+    "ajuda": "A greve ocorrida no setor paralisou o país em 2018"
+  },
+  "19": {
+    "question": "Qual o nome do último álbum da banda americana Queens of the Stone Age? \n(a)Like Clockwork\n(b)Era Vulgaris\n(c)Villains\n(d)Songs for the Deaf\n",
+    "answer": "c",
+    "more_info": "https://pt.wikipedia.org/wiki/Queens_of_the_Stone_Age",
+    "ajuda": "Foi lançado em junho de 2017 e foi produzido por Mark Ronson"
   }
 }

@@ -19,7 +19,7 @@ def perguntar(pergunta):
             print("-Pedir ajuda aos universitários " + str(ajuda) + " vezes \n")
         if skip > 0:
             print("-Pular " + str(skip) + " vezes \n" )
-        au = input("Pressione U para ajuda dos universitários ou P para pular. Para negar, pressione N \n")
+        au = input("Pressione 'U' para ajuda dos universitários ou 'P' para pular. Se não precisar de ajuda, pressione 'N' \n")
         if (au == 'U' or au == 'u'):
             if(ajuda>0):
                 ajuda = ajuda - 1
@@ -71,28 +71,38 @@ def inicio():
     i = 0
 
     for key, meta in perguntas.items():
-        print("A pergunta número " + key + " valendo " + premio[pts] + " reais")
+        print("A pergunta número " + key + " valendo " + premio[pts] + " reais é:")
+        time.sleep(3)
         resposta = perguntar(meta)
 
         if skiped == True:
             skiped = False
             continue
-
+        print("\n" * get_terminal_size().lines * 2, end='')
         if (not verifica(resposta, meta)):
             opt = input("Deseja reiniciar o jogo? \n [pressione s ou y para confirmar, ou pressione qualquer tecla para sair]\n")
             if(opt == 'y' or opt == 's'):
                 execute()
             else:
                 quit()
-        if pts > 16:
+        if pts == 16:
+            print("\n" * get_terminal_size().lines * 2, end='')
             print("Parabéns, você acaba de ganhar um milhão de reais!")
+
 
         i = i + 1
 
+def welcome():
+    opt = input("Seja bem-vindo ao Show do Milhão! \n Deseja iniciar o jogo? [s/n]")
+    if opt == 's':
+        print("\n" * get_terminal_size().lines * 2, end='')
+        inicio()
+    else:
+        exit()
+
 
 def execute():
-    print("\n" * get_terminal_size().lines, end='')
-    inicio()
+    welcome()
 
 
 if __name__ == '__main__':
